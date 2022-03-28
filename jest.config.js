@@ -12,6 +12,11 @@ const customJestConfig = {
     // Handle module aliases (this will be automatically configured for you soon)
     '^~/(.*)$': '<rootDir>/$1',
   },
+  testPathIgnorePatterns: [
+    '<rootDir>/.next/',
+    '<rootDir>/cypress/',
+    '<rootDir>/node_modules/',
+  ],
   testEnvironment: 'jest-environment-jsdom',
 };
 

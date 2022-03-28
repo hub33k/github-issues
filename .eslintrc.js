@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: 'next/core-web-vitals',
+  extends: ['next/core-web-vitals', 'plugin:cypress/recommended'],
   plugins: ['testing-library'],
   overrides: [
     // Only uses Testing Library lint rules in test files
