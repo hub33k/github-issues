@@ -1,12 +1,12 @@
 describe('HomePage', () => {
-  it('should have "Welcome to Next.js!" text', () => {
+  it('should have "Github Issues" text', () => {
     // given
     websiteIsOpened();
 
     // when
 
     // then
-    cy.get('.Home_title__T09hD').contains('Welcome to Next.js!');
+    cy.get('h1').contains('Github Issues');
   });
 });
 
