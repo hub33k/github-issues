@@ -15,5 +15,3 @@ describe('HomePage', () => {
 function websiteIsOpened() {
   cy.visit('http://localhost:3000');
 }
-
-export {};
